@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 36px;
+}
+*{
+    font-family: roboto, sans-serif;
+}
+
+#displayCalculate {
+    width: 678;
+    height: 50px;
+    border: 2px;
+    border-style: solid;
+    border-color: #6969694a;
+    border-radius: 6px;
+    background-color: #f2f2f2;
+    text-align: end;
+    padding-right: 8px;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.lines {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+#btnNumber0.btnContainer {
+    width: 336px;
+    height: 56px;
+
+}
+
+#btnReset.btnContainerWithFunc{
+    width: 164px;
+    height: 42px;
+    text-align: center;
+    color: #283779;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#btnCalcular.btnContainerWithFunc{
+    width: 506px;
+    height: 42px;
+    text-align: center;
+    background-color: #283779;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.btnContainerWithFunc {
+    width: 164px; 
+    height: 56px; 
+    border: 1px solid #283779; 
+    border-radius: 6px;     
+    display: flex;
+    align-items: center;
+    margin-top: 21px;
+    flex-direction: row;
+    gap: 8px;
+    cursor: pointer;
+}
+
+
+.btnContainerWithIcon {
+    width: 164px; 
+    height: 56px; 
+    border: 1px solid #6969694a; 
+    border-radius: 6px;     
+    display: flex;
+    align-items: center;
+    margin-top: 21px;
+    flex-direction: row;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.btnContainer {
+    width: 164px; 
+    height: 56px; 
+    border: 1px solid #6969694a; 
+    border-radius: 6px;     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 21px;
+    cursor: pointer;
+}
+
+.numberIcon {
+    background-color: #6969694a; 
+    width: 32px; 
+    height: 32px; 
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.operationIcon {
+    margin-left: 12px;
+    background-color: #6969694a; 
+    width: 32px; 
+    height: 32px; 
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

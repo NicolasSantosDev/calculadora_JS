@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/807083eb13.js" crossorigin="anonymous"></script>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+<body>
+    <div style="display: flex;flex-direction: column;align-items: center;">
+        <div>
+    <header>
+        <strong> Calculadora - Nicolas Santos </strong>
+    </header>
+
+    <section style="margin-top: 40px">
+        <div id="displayCalculate">
+            <!-- Display -->
+        </div>
+        <div style="display: flex; flex-direction: row; gap: 8px;">
+            <div 
+            id="btnNumber1"
+            class="btnContainer"
+            onclick="MostraNumero(1)"
+            >
+                <div class="numberIcon">
+                    1
+                </div>
+            </div>
+            <div 
+            id="btnNumber2"
+            class="btnContainer"
+            onclick="MostraNumero(2)"
+            >
+                
+                <div class="numberIcon">
+                    2
+                </div>
+            </div>
+            <div 
+                id="btnNumber3"
+                class="btnContainer"
+                onclick="MostraNumero(3)"
+            >
+                <div class="numberIcon">
+                    3
+                </div>
+            </div>
+            <div 
+                id="btnAdd"
+                class="btnContainerWithIcon"
+                onclick="MostraOperacao('+')"
+            >
+                <div class="operationIcon">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div>
+                    Adição
+                </div>
+            </div>
+        </div>
+        <div class="lines">
+            <div 
+            id="btnNumber4"
+            class="btnContainer"
+            onclick="MostraNumero(4)"
+            >
+                <div class="numberIcon">
+                    4
+                </div>
+            </div>
+            <div 
+            id="btnNumber5"
+            class="btnContainer"
+            onclick="MostraNumero(5)"
+            >
+                
+                <div class="numberIcon">
+                    5
+                </div>
+            </div>
+            <div 
+                id="btnNumber6"
+                class="btnContainer"
+                onclick="MostraNumero(6)"
+            >
+                <div class="numberIcon">
+                    6
+                </div>
+            </div>
+            <div 
+                id="btnAdd"
+                class="btnContainerWithIcon"
+                onclick="MostraOperacao('-')"
+            >
+                <div class="operationIcon">
+                    <i class="fa-solid fa-minus"></i>
+                </div>
+                <div>
+                    Subtração
+                </div>
+            </div>
+        </div>
+        <div class="lines">
+            <div 
+            id="btnNumber7"
+            class="btnContainer"
+            onclick="MostraNumero(7)"
+            >
+                <div class="numberIcon">
+                    7
+                </div>
+            </div>
+            <div 
+            id="btnNumber8"
+            class="btnContainer"
+            onclick="MostraNumero(8)"
+            >
+                
+                <div class="numberIcon">
+                    8
+                </div>
+            </div>
+            <div 
+                id="btnNumber9"
+                class="btnContainer"
+                onclick="MostraNumero(9)"
+            >
+                <div class="numberIcon">
+                    9
+                </div>
+            </div>
+            <div 
+                id="btnAdd"
+                class="btnContainerWithIcon"
+                onclick="MostraOperacao('*')"
+            >
+                <div class="operationIcon">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div>
+                    Multiplicação
+                </div>
+            </div>
+        </div>
+        <div class="lines">
+            <div 
+            id="btnNumber0"
+            class="btnContainer"
+            onclick="MostraNumero(0)"
+            >
+                <div class="numberIcon">
+                    0
+                </div>
+            </div>
+            <div 
+            id="btnAdd"
+            class="btnContainerWithIcon"
+            onclick="MostraOperacao('!')"
+        >
+            <div class="operationIcon">
+                <i class="fa-solid fa-exclamation"></i>
+            </div>
+            <div>
+                Fatorial
+            </div>
+            </div>
+            <div 
+                id="btnAdd"
+                class="btnContainerWithIcon"
+                onclick="MostraOperacao('/')"
+            >
+                <div class="operationIcon">
+                    <i class="fa-solid fa-divide"></i>
+                </div>
+                <div>
+                    Divisão
+                </div>
+            </div>
+
+            
+        </div>
+        <div class="lines">
+            <div 
+            id="btnReset"
+            class="btnContainerWithFunc"
+            onclick="limparDisplay()"
+        >
+            <div>
+                Reset
+            </div>
+            
+            </div>
+            <div 
+                id="btnCalcular"
+                class="btnContainerWithFunc"
+                onclick="calculate()"
+            >
+                <div>
+                    Calcular
+                </div>
+            </div>
+           
+
+            
+        </div>
+        </div>
+    </section>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>  
